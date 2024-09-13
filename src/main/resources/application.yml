@@ -3,5 +3,6 @@ spring:
     oauth2:
       client:
         registration:
+
           google:
 
