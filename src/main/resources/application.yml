@@ -2,7 +2,10 @@ spring:
   security:
     oauth2:
       client:
-        registration:
 
-          google:
 
+
+logging:
+  level:
+    web: DEBUG
+    root: INFO
