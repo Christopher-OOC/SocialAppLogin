@@ -20,7 +20,13 @@ public class WebSecurity {
                 )
                 .oauth2Login(oauth2 -> {
 
-                });
+                })
+                .logout(logout -> logout
+                        .logoutSuccessUrl("/")
+                        .invalidateHttpSession(true)
+                        .clearAuthentication(true)
+                        .deleteCookies("JSESSIONID")
+                );
 
         return http.build();
     }
