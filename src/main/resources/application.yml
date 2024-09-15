@@ -7,24 +7,7 @@ spring:
       client:
         registration:
           google:
-            client-id: 343512024748-hkfo8ibfgol8k5ivrvfu7i9nr056k8j4.apps.googleusercontent.com
-            client-secret: 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
-#        provider:
-#          google:
-#            redirect-uri: http://localhost:8001/login/oauth2/code/googleflowName=GeneralOAuthFlow
-#          okta:
-#            client-id: 0oajnnwu5nPrqFwKW5d7
-#            client-secret: wpPMYP3xP0f4g-BGW7809R3CR2-H44P5sR8AN2SQdtS4TAhIoSEjjF_YYC4kbrYw
-#            scope: openid, profile
-#        provider:
-#          okta:
-#            issuer-uri: https://dev-10757845.okta.com/oauth2/default
-#          facebook:
-#            client-id: 424572927314494
-#            client-secret: e5e0e882674cefd88b15d2c3fb838fa4
-#          github:
-#            client-id:
-#            client-secret:
+
 
 
 
